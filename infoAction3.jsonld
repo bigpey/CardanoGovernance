@@ -48,31 +48,26 @@
   "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "abstract": "The K parameter was created to limit the total number of ADA staked to one pool. The K parameter determines the saturation of stakepools. To calculate the saturation of stakepools you can take the total number of ADA and divide it by K. K is currently 500, and pool saturation is currently 74,551,771.86 ADA. Pool saturation will increase slightly each epoch as more ADA is minted each epoch from staking rewards.\n\nK also has a large effect on a0. a0 is another Cardano protocol parameter that determines ADA staking rewards per epoch. a0 is currently set at .3. If a stakepool operator pledges the enough ADA to saturate their pool they earn 30% more ADA rewards per epoch. If you pledge half of the pools saturation then they earn 15% more ADA rewards. Smaller pledges have a higher impact on staking rewards with a k parameter that's higher.",
+    "abstract": "The K parameter was created to limit the total number of ADA staked to one pool. The K parameter determines the saturation of stakepools. To calculate the saturation of stakepools you can take the total number of ADA and divide it by K. K is currently 500, and pool saturation is currently 74,551,771.86 ADA. Pool saturate will increase slightly each epoch as more ADA is minted each epoch from staking rewards.\n\nK also has a large effect on a0. a0 is another Cardano protocol paramter that determines ADA staking rewards per epoch. a0 is currently set at .3. If a stakepool operator pledges the enough ADA to saturate their pool they earn 30% more ADA rewards per epoch. If you pledge half of the pools saturation then any delegates earn 15% more ADA rewards after SPO fees. Smaller pledges have a higher impact on staking rewards with a k parameter that's higher.",
     "motivation": "This governance action is by no means a suggestion of what Cardano protocol parameters should be modified to or if they should be modified at this time. The goal of this governance action is to increase governance participation before the next hardfork. You can register to be a dRep now with your own wallet, or delegate to another dRep today.",
-    "rationale": "We believe that it's important to submit governance info actions to encourage community participation in Cardano's governance before more serious proposals are introduced. It's also important that people have a good understanding of what protocol parameters can change.",
+    "rationale": "We believe that it's important to submit governance info actions to encourage community participation in Cardano's governance before larger, and potentially more serious proposals are introduced. It's also important that people have a good understanding of what protocol parameters can be changed.\n\nYou can use this official link to learn more about Cardano protocol parameters.",
     "references": [
       {
         "@type": "Other",
-        "label": "Intro to Cardano Governance Video",
-        "uri": "https://x.com/atrium_lab/status/1838654833806446773"
-      },
-      {
-        "@type": "Other",
-        "label": "Go to our articles to find the discussion thread.",
+        "label": "Find our proposal thread if you're interested in joining the discussion.",
         "uri": "https://x.com/atrium_lab"
       },
       {
         "@type": "Other",
-        "label": "Our Cardano Education Portal",
-        "uri": "https://alpha.atrium.io/education/what-is-cryptocurrency"
+        "label": "Our introduction to Cardano governance video.",
+        "uri": "https://x.com/atrium_lab/status/1838654833806446773"
       },
       {
         "@type": "Other",
-        "label": "Official Cardano Protocol Parameters Documentation",
-        "uri": "https://docs.cardano.org/about-cardano/explore-more/parameter-guide/"
+        "label": "Link to our full Cardano education portal.",
+        "uri": "https://alpha.atrium.io/education/what-is-cryptocurrency"
       }
     ],
-    "title": "Should K be increased?"
+    "title": "Should K increased?"
   }
 }
